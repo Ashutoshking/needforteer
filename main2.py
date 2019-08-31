@@ -131,7 +131,8 @@ class Bot(discord.Client):
         self.embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/592598263996088320/617267130722680832/FB_IMG_1563697913159.jpg")
         self.embed.add_field(name="**__Option 1__**", value="~~0.0~~", inline=False)
         self.embed.add_field(name="**__Option 2__**", value="~~0.0~~", inline=False)
-        self.embed.add_field(name="**__Option 3__**", value="~~0.0~~", inline=False,color=00bffff)
+        self.embed.add_field(name="**__Option 3__**", value="~~0.0~~", inline=False)
+        color= 00bffff
         self.embed.set_footer(text=f"Moonlite Trivia V2.0", \
             icon_url="https://cdn.discordapp.com/attachments/592598263996088320/617266903349592064/JPEG_20190831_095602.jpg")
 
