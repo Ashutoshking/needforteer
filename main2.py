@@ -140,7 +140,7 @@ class Bot(discord.Client):
         self.embed.add_field(name="**__Option 3__**", value="~~0.0~~", inline=False)
         
         
-        self.embed.set_footer(text=f"Moonlite Trivia V2.0❤️by Moonlite Community"                , \
+        self.embed.set_footer(text=f"Moonlite Trivia V2.0❤️ Moonlite Team"                , \
             icon_url="https://cdn.discordapp.com/attachments/592598263996088320/617266903349592064/JPEG_20190831_095602.jpg")
 
         #await self.bot.add_reaction(embed,':spy:')
