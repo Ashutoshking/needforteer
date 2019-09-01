@@ -189,13 +189,13 @@ class Bot(discord.Client):
 
             
 
-        if lowest < 0:
-            if answer == 1:
-                one_cross = ":x:"
-            if answer == 2:
-                two_cross = ":x:"
-            if answer == 3:
-                three_cross = ":x:"            
+        #if lowest < 0:
+           # if answer == 1:
+                #one_cross = ":x:"
+            #if answer == 2:
+                #two_cross = ":x:"
+           # if answer == 3:
+                #three_cross = ":x:"            
  
         self.embed.set_field_at(0, name="**__OPTION  1__**", value="**{0}**{1}".format(lst_scores[0], one_check))
   
