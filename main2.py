@@ -197,11 +197,11 @@ class Bot(discord.Client):
             #if answer == 3:
                 #three_cross = ":x:"            
  
-        self.embed.set_field_at(0, name="**__Option 1__**", value="**{0}**{1}".format(lst_scores[0], one_check))
+        self.embed.set_field_at(0, name="**__OPTION 1__**", value="**{0}**{1}".format(lst_scores[0], one_check))
   
-        self.embed.set_field_at(1, name="**__Option 2__**", value="**{0}**{1}".format(lst_scores[1], two_check))
+        self.embed.set_field_at(1, name="**__OPTION 2__**", value="**{0}**{1}".format(lst_scores[1], two_check))
     
-        self.embed.set_field_at(2, name="**__Option 3__**", value="**{0}**{1}".format(lst_scores[2], three_check),)
+        self.embed.set_field_at(2, name="**__OPTION 3__**", value="**{0}**{1}".format(lst_scores[2], three_check),)
       
 
 
