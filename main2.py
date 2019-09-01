@@ -135,9 +135,12 @@ class Bot(discord.Client):
         
         self.embed.add_field(name="**__Option 1__**", value="~~0.0~~", inline=False)
         
+        
         self.embed.add_field(name="**__Option 2__**", value="~~0.0~~", inline=False)
         
+        
         self.embed.add_field(name="**__Option 3__**", value="~~0.0~~", inline=False)
+        
         
         
         self.embed.set_footer(text=f"Moonlite Trivia V2.0❤️ Moonlite Team"                , \
