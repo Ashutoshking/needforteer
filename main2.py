@@ -128,7 +128,7 @@ class Bot(discord.Client):
         self.answer_scores = answer_scores
 
         # embed creation
-        self.embed=discord.Embed(title= "**Moonlite Trivia**", description="**Searching Answer**..........", color=0x0000ff)
+        self.embed=discord.Embed(title= "**Moonlite Trivia**", description="**Searching Answer**..........", color=0x00ffff)
         self.embed.set_author(name ='',url=' ',icon_url='https://cdn.discordapp.com/attachments/592598263996088320/617266903349592064/JPEG_20190831_095602.jpg')
         self.embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/592598263996088320/617267130722680832/FB_IMG_1563697913159.jpg")
         
