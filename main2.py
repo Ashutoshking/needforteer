@@ -175,17 +175,17 @@ class Bot(discord.Client):
             if answer == 1:
                 one_check = ":one::white_check_mark:"
             else:
-                one_check = ":x:"
+                one_check = ""
 
             if answer == 2:
                 two_check = ":two::white_check_mark:"
             else:
-                two_check = ":x:"
+                two_check = ""
 
             if answer == 3:
                 three_check = ":three::white_check_mark:"
             else:
-                three_check = ":x:"
+                three_check = ""
 
             
 
