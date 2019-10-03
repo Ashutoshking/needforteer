@@ -15,7 +15,7 @@ BOT_OWNER_ROLE = 'MoonliteV2.0ツRunner' # change to what you need
  
 
  
-oot_channel_id_list = ["626769223846461470",
+oot_channel_id_list = ["628291818257121298",
 "588070986554015764",
 "626992737018970112"
 
