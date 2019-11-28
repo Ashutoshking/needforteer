@@ -1,4 +1,0 @@
-requests
-websockets
-phonenumbers
-aiohttp
